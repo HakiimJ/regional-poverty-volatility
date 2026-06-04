@@ -1,0 +1,7 @@
+"ID","Model","Min_Rhat","Max_Rhat","Min_ESS","Max_ESS"
+"M5","Bayes LM (Gaussian)",1,1.001,2631,7467
+"M6","Bayesian ridge",1,1.004,1039,5485
+"M7","Bayesian lasso",1,1.001,2725,8727
+"M8","Horseshoe",1,1.001,2604,9627
+"M10","Beta regression",1,1.002,2859,8994
+"M11","Spatial ICAR",1.002,1.211,18,301
