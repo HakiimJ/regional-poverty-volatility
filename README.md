@@ -19,9 +19,9 @@ The codebase evaluates a wide range of models, including:
 
 ## Repository Structure
 
-* `data/`: Contains the cleaned, aggregated 2021 province-level dataset sourced from Badan Pusat Statistik (BPS) Indonesia (n=34).
-* `scripts/`: Contains the master replication R scripts for data preparation, parametric and non-parametric cross-validation loops, prior sensitivity analysis, and the multi-scenario asymptotic simulation grid.
-* `figures/`: Automatically generated directory where the scripts output the tables, predictive distributions, and SHAP summary plots.
+* `scripts/`: Contains the master replication R scripts for data preparation, parametric and non-parametric cross-validation loops, prior sensitivity analysis, and the multi-scenario asymptotic simulation grid. Real poverty dataset is stored in the script.
+* `1. Findings/`: Automatically generated directory where the scripts output the tables, predictive distributions, and SHAP summary plots for real data analysis.
+* `2. Simulation/`: Automatically generated directory where the scripts output the tables, predictive distributions, and SHAP summary plots for simulation study.
 
 ## System Requirements and Dependencies
 
