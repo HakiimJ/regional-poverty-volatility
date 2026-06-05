@@ -430,4 +430,4 @@ p_sim_curves <- ggplot(sim_plot_df, aes(x = factor(N), y = Mean_RMSE, group = Mo
   labs(x = "Sample Size (n)", y = "Mean Out-of-Sample RMSE")
 ggsave(paste0(mainDir, "/2. Simulation/Figure1_Simulation_Risk_Profiles.pdf"), plot = p_sim_curves, width = 11, height = 5.5)
 
-cat("Done. Sains Malaysiana compilation cycle terminates cleanly.\n")
+cat("Done. Journal compilation cycle terminates cleanly.\n")
