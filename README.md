@@ -20,6 +20,7 @@ The codebase evaluates a wide range of models, including:
 ## Repository Structure
 
 * `scripts/`: Contains the master replication R scripts for data preparation, parametric and non-parametric cross-validation loops, prior sensitivity analysis, and the multi-scenario asymptotic simulation grid. Real poverty dataset is stored in the script.
+* `0. Real dataset/`: Contains the poverty dataset used.
 * `1. Findings/`: Automatically generated directory where the scripts output the tables, predictive distributions, and SHAP summary plots for real data analysis.
 * `2. Simulation/`: Automatically generated directory where the scripts output the tables, predictive distributions, and SHAP summary plots for simulation study.
 
