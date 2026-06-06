@@ -13,8 +13,8 @@ Small regional datasets pose a dual statistical challenge: correlated predictors
 
 The codebase evaluates a wide range of models, including:
 * **Frequentist Shrinkage Models:** OLS, Ridge, LASSO, Elastic Net.
-* **Bayesian Parametric Models:** Gaussian LM, Bayesian Ridge, Bayesian LASSO, Horseshoe priors, and Beta regression.
-* **Spatial Diagnostics:** K-nearest neighbors spatial graph (BYM2/ICAR).
+* **Bayesian Parametric Models:** Gaussian LM, Bayesian Ridge, Bayesian LASSO, Horseshoe priors, Beta regression, and Spike-and-Slab.
+* **Spatial Diagnostics:** Dynamically connected k-nearest neighbors spatial graph (ICAR).
 * **Machine Learning Ensembles:** Random Forest, XGBoost, BART, and Gaussian Processes.
 
 ## Repository Structure
@@ -34,6 +34,8 @@ To run the master replication script, ensure you have the following R packages i
 * `brms` (v2.20)
 * `rstan`
 * `loo`
+* `posterior`
+* `BoomSpikeSlab`
 * `spdep`, `car`
 
 **Machine Learning & Interpretability:**
@@ -51,4 +53,5 @@ To replicate the findings from the paper:
 
 1. Clone this repository to your local machine:
 ```bash
-   git clone [https://github.com/HakiimJ/regional-poverty-volatility.git](https://github.com/HakiimJ/regional-poverty-volatility.git)
+git clone https://github.com/HakiimJ/regional-poverty-volatility.git
+cd regional-poverty-volatility
