@@ -2,10 +2,9 @@
 
 [![Status: Under Review](https://img.shields.io/badge/Status-Under_Review-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+The [DOI: 10.5281/zenodo.22781941](https://doi.org/10.5281/zenodo.22781941)
 
 This repository contains the data and computational code necessary to fully replicate the analyses, simulations, and figures presented in the working manuscript: **"Predictive volatility of machine learning in micro-samples: a regularised assessment of regional poverty"** by Ahmad Hakiim Jamaluddin, Andrea Tri Rian Dani, Nor Idayu Mahat, Vita Ratnasari, and Shukor Sanim Mohd Fauzi.
-
-*Note: A permanent DOI will be minted via Zenodo upon the formal acceptance and publication of the manuscript.*
 
 ## Overview
 
@@ -55,6 +54,3 @@ To replicate the findings from the paper:
 ```bash
 git clone https://github.com/HakiimJ/regional-poverty-volatility.git
 cd regional-poverty-volatility
-```
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-The [DOI: 10.5281/zenodo.22781941](https://doi.org/10.5281/zenodo.22781941)
