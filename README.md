@@ -55,3 +55,6 @@ To replicate the findings from the paper:
 ```bash
 git clone https://github.com/HakiimJ/regional-poverty-volatility.git
 cd regional-poverty-volatility
+```
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+The [DOI: 10.5281/zenodo.22781941](https://doi.org/10.5281/zenodo.22781941)
